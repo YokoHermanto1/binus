@@ -13,6 +13,9 @@
         android:theme="@style/Theme.Binus"
         tools:targetApi="31">
         <activity
+            android:name=".aftersearchpage"
+            android:exported="false" />
+        <activity
             android:name=".searchpage"
             android:exported="false" />
         <activity
