@@ -41,7 +41,7 @@
         android:fontFamily="@font/HussarBold"
         android:text="Which of the following HTML tags is used to define paragraph?"
         android:textSize="21sp"
-        android:layout_marginStart="80dp"
+        android:layout_marginStart="70dp"
         android:textAlignment="center"
         android:layout_marginTop="190dp"
         />
