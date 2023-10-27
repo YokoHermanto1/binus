@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".explanationpage"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/xbtn"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginStart="25dp"
+        android:src="@drawable/close"
+        android:layout_marginEnd="30dp"
+        />
+
+    <ImageView
+        android:id="@+id/explain1"
+        android:layout_width="match_parent"
+        android:layout_height="230dp"
+        android:background="@drawable/explanation1"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginTop="100dp"
+        />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:src="@drawable/rectangle"
+        android:layout_marginTop="380dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Explanation"
+        android:fontFamily="@font/HussarBold"
+        android:textSize="20sp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="400dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="The <p> tag in HTML is used to define a paragraph."
+        android:textSize="20sp"
+        android:layout_marginStart="40dp"
+        android:layout_marginEnd="40dp"
+        android:layout_marginTop="450dp"
+        />
+
+
+
+
+</RelativeLayout>

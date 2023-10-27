@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".profilepage"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/backgroundprofileimage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/backgroundprofile"
+        />
+
+    <ImageView
+        android:id="@+id/setings"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:src="@drawable/settingicon"
+        android:layout_marginStart="330dp"
+        android:layout_marginTop="30dp"
+        />
+
+    <ImageView
+        android:id="@+id/profileimage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/profileimg"
+        android:layout_marginStart="110dp"
+        android:layout_marginTop="110dp"
+        />
+
+    <TextView
+        android:id="@+id/profilename"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Rose"
+        android:fontFamily="@font/HussarBold"
+        android:textSize="20sp"
+        android:layout_marginStart="170dp"
+        android:layout_marginTop="270dp"
+        />
+
+    <TextView
+        android:id="@+id/email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="email@email.com"
+        android:fontFamily="@font/Agrandir"
+        android:layout_marginStart="135dp"
+        android:layout_marginTop="310dp"
+        />
+
+    <Button
+        android:id="@+id/ditbtnprofile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/yellow"
+        android:textColor="@color/blue"
+        android:text="Edit Profile"
+        android:layout_marginStart="132dp"
+        android:layout_marginTop="350dp"
+        />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:src="@drawable/rectangle"
+        android:layout_marginTop="420dp"
+        />
+
+    <TextView
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:text="Meet new friends from another town"
+        android:fontFamily="@font/HussarBold"
+        android:textSize="16sp"
+        android:layout_marginTop="450dp"
+        android:layout_marginStart="45dp"
+        />
+
+    <ImageView
+        android:id="@+id/forumimg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/forumimg"
+        android:layout_marginTop="520dp"
+        android:layout_marginStart="45dp"
+        />
+
+    <ImageView
+        android:id="@+id/communityimg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@+id/forumimg"
+        android:src="@drawable/communityimg"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="520dp"
+        />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="730dp"
+        android:src="@drawable/rectangle"
+        />
+
+    <ImageView
+        android:id="@+id/homebtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/home"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="732dp"
+        />
+
+    <ImageView
+        android:id="@+id/searchbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@+id/homebtn"
+        android:background="@drawable/search"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="733dp"
+        />
+
+    <ImageView
+        android:id="@+id/librarybtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@+id/searchbtn"
+        android:background="@drawable/Library"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="733dp"
+        />
+
+    <ImageView
+        android:id="@+id/profilebtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@+id/librarybtn"
+        android:background="@drawable/profile"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="735dp"
+        />
+</RelativeLayout>

@@ -13,6 +13,27 @@
         android:theme="@style/Theme.Binus"
         tools:targetApi="31">
         <activity
+            android:name=".searchpage"
+            android:exported="false" />
+        <activity
+            android:name=".logoutpop"
+            android:exported="false" />
+        <activity
+            android:name=".explanationpage"
+            android:exported="false" />
+        <activity
+            android:name=".afteranwering"
+            android:exported="false" />
+        <activity
+            android:name=".profilesetting"
+            android:exported="false" />
+        <activity
+            android:name=".profileedit"
+            android:exported="false" />
+        <activity
+            android:name=".profilepage"
+            android:exported="false" />
+        <activity
             android:name=".tutorialpage"
             android:exported="false" />
         <activity

@@ -9,13 +9,24 @@
 
     <TextView
         android:id="@+id/greetings"
-        android:layout_width="200dp"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Good Morning, Siapa"
+        android:text="Good Morning ,"
         android:layout_marginTop="40dp"
         android:layout_marginStart="40dp"
         android:textSize="30sp"
         />
+
+    <TextView
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="Rose!"
+        android:textStyle="bold"
+        android:layout_marginTop="80dp"
+        android:layout_marginStart="40dp"
+        android:textSize="30sp"
+        />
+
 
     <ImageView
         android:id="@+id/imageprofile"

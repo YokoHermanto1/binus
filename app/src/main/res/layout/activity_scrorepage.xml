@@ -30,6 +30,13 @@
         />
 
     <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:src="@drawable/rectangle"
+        android:layout_marginTop="38dp"
+        />
+
+    <ImageView
         android:id="@+id/explain1"
         android:layout_width="match_parent"
         android:layout_height="230dp"
