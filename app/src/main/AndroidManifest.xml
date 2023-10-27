@@ -13,6 +13,9 @@
         android:theme="@style/Theme.Binus"
         tools:targetApi="31">
         <activity
+            android:name=".tutorialpage"
+            android:exported="false" />
+        <activity
             android:name=".scrorepage"
             android:exported="false" />
         <activity
