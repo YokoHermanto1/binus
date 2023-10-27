@@ -21,6 +21,7 @@
 
 
     <ImageButton
+        android:id="@+id/imageprofile"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         app:layout_constraintRight_toRightOf="parent"
@@ -28,6 +29,108 @@
         android:background="@drawable/img6"
         android:layout_marginEnd="30dp"
         android:layout_marginTop="50dp"
+        />
+
+    <ImageView
+        android:id="@+id/progressbar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/greetings"
+        android:background="@drawable/img8"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="20dp"
+        />
+    
+    <TextView
+        android:id="@+id/recenttext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Recent"
+        android:textStyle="bold"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="30dp"
+        android:textSize="25sp"
+        app:layout_constraintTop_toBottomOf="@+id/progressbar"
+        />
+
+    <ImageButton
+        android:id="@+id/imagecoloring"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@+id/recenttext"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:background="@drawable/img1"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="20dp"
+        />
+
+    <ImageButton
+        android:id="@+id/imagecoloring2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@+id/recenttext"
+        app:layout_constraintLeft_toRightOf="@+id/imagecoloring"
+        android:background="@drawable/img2"
+        android:layout_marginStart="3dp"
+        android:layout_marginTop="20dp"
+        />
+
+    <ImageButton
+        android:id="@+id/imagecoloring3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@+id/recenttext"
+        app:layout_constraintLeft_toRightOf="@+id/imagecoloring2"
+        android:background="@drawable/img3"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="20dp"
+        />
+
+    <ImageButton
+        android:id="@+id/gopro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@+id/imagecoloring"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:background="@drawable/img7"
+        android:layout_marginStart="44dp"
+        android:layout_marginTop="40dp"
+        />
+
+    <TextView
+        android:id="@+id/recommendedtext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Recommended"
+        android:textStyle="bold"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginStart="45dp"
+        android:layout_marginTop="10dp"
+        android:textSize="25sp"
+        app:layout_constraintTop_toBottomOf="@+id/gopro"
+        />
+
+    <ImageButton
+        android:id="@+id/imgrec1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@+id/recommendedtext"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:background="@drawable/img5"
+        android:layout_marginStart="45dp"
+        android:layout_marginTop="10dp"
+        />
+
+    <ImageButton
+        android:id="@+id/imgrec2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@+id/recommendedtext"
+        app:layout_constraintLeft_toRightOf="@+id/imgrec1"
+        android:background="@drawable/img5"
+        android:layout_marginTop="5dp"
         />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
