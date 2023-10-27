@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".library"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textcourse"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="My Course"
+        android:fontFamily="@font/HussarBold"
+        android:textSize="25sp"
+        android:layout_marginTop="40dp"
+        android:layout_marginStart="20dp"
+        />
+
+    <ImageView
+        android:id="@+id/howtomakemenu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/img9"
+        android:layout_marginTop="100dp"
+        android:layout_marginStart="20dp"
+        />
+
+    <ImageView
+        android:id="@+id/fundamentaljava"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/img10"
+        android:layout_toEndOf="@+id/howtomakemenu"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="100dp"
+        />
+
+    <ImageView
+        android:id="@+id/codinghtml"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/img11"
+        android:layout_marginTop="100dp"
+        android:layout_toEndOf="@+id/fundamentaljava"
+        android:layout_marginStart="20dp"
+        />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="730dp"
+        android:src="@drawable/rectangle"
+        />
+
+    <ImageView
+        android:id="@+id/homebtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/home"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="732dp"
+        />
+
+    <ImageView
+        android:id="@+id/searchbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@+id/homebtn"
+        android:background="@drawable/search"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="733dp"
+        />
+
+    <ImageView
+        android:id="@+id/librarybtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@+id/searchbtn"
+        android:background="@drawable/Library"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="733dp"
+        />
+
+    <ImageView
+        android:id="@+id/profilebtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@+id/librarybtn"
+        android:background="@drawable/profile"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="735dp"
+        />
+
+</RelativeLayout>

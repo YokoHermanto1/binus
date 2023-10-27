@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".libraryimgclick"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/closebtn"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="25dp"
+        android:src="@drawable/close"
+        android:layout_marginEnd="30dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="How to make a Menu"
+        android:fontFamily="@font/HussarBold"
+        android:layout_marginTop="90dp"
+        android:layout_marginStart="40dp"
+        android:textSize="23sp"
+        />
+
+    <ImageView
+        android:id="@+id/btntutor"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@drawable/rectangleorange"
+        android:layout_marginTop="150dp"
+        android:layout_marginStart="40dp"
+        />
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@drawable/rectanglepink"
+        android:layout_marginTop="150dp"
+        android:layout_toEndOf="@+id/btntutor"
+        android:layout_marginStart="20dp"
+        />
+
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="65dp"
+        android:layout_marginTop="200dp"
+        android:text="Tutorial"
+        android:textColor="@color/black"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        android:backgroundTint="@color/transparent"
+        />
+
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="235dp"
+        android:layout_marginTop="200dp"
+        android:text="Quiz"
+        android:textColor="@color/black"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        android:backgroundTint="@color/transparent"/>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="730dp"
+        android:src="@drawable/rectangle"
+        />
+
+    <ImageView
+        android:id="@+id/homebtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/home"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="732dp"
+        />
+
+    <ImageView
+        android:id="@+id/searchbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@+id/homebtn"
+        android:background="@drawable/search"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="733dp"
+        />
+
+    <ImageView
+        android:id="@+id/librarybtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@+id/searchbtn"
+        android:background="@drawable/Library"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="733dp"
+        />
+
+    <ImageView
+        android:id="@+id/profilebtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@+id/librarybtn"
+        android:background="@drawable/profile"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="735dp"
+        />
+
+</RelativeLayout>
