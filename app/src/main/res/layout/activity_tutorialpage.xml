@@ -8,4 +8,52 @@
     android:orientation="vertical"
     >
 
+    <ImageView
+        android:id="@+id/xbtn"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginStart="25dp"
+        android:src="@drawable/xbtn"
+        android:layout_marginEnd="30dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/HussarBold"
+        android:text="How to make Menu"
+        android:textSize="30sp"
+        android:layout_marginStart="40dp"
+        android:textAlignment="center"
+        android:layout_marginTop="230dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="First,Create an unordered list for the menu items: The <ul> tag is used to define an unordered list, and each menu item will be a list item (<li>)."
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        android:textSize="15sp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Second,Add menu items with links: The <a> tag defines a hyperlink, which is used to link from one page to another."
+        android:layout_marginTop="20dp"
+        android:textSize="15sp"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/examplecode"
+        android:layout_marginStart="20dp"
+        />
+
 </LinearLayout>
