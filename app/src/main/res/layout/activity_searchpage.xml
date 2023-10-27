@@ -7,6 +7,110 @@
     tools:context=".searchpage"
     android:orientation="vertical">
 
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Explore"
+        android:textSize="25sp"
+        android:fontFamily="@font/HussarBold"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="50dp"
+        />
+    
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginTop="100dp"
+        android:inputType="text"
+        android:hint="    Search"
+        android:background="@drawable/border"
+        />
+
+    <Button
+        android:id="@+id/backendbtn"
+        android:layout_width="110dp"
+        android:layout_height="50dp"
+        android:text="Backend"
+        android:textColor="@color/blue"
+        android:backgroundTint="@color/purpleblue"
+        android:layout_marginTop="160dp"
+        android:layout_marginStart="20dp"
+        />
+
+    <Button
+        android:id="@+id/frontendbtn"
+        android:layout_width="110dp"
+        android:layout_height="50dp"
+        android:text="Frontend"
+        android:layout_toRightOf="@+id/backendbtn"
+        android:textColor="@color/blue"
+        android:backgroundTint="@color/pink"
+        android:layout_marginTop="160dp"
+        android:layout_marginStart="10dp"
+        />
+
+    <Button
+        android:id="@+id/databasebtn"
+        android:layout_width="110dp"
+        android:layout_height="50dp"
+        android:text="Database"
+        android:layout_toRightOf="@id/frontendbtn"
+        android:textColor="@color/blue"
+        android:backgroundTint="@color/yellow"
+        android:layout_marginTop="160dp"
+        android:layout_marginStart="10dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Popular Course"
+        android:textSize="25sp"
+        android:fontFamily="@font/HussarBold"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="230dp"
+        />
+
+    <ImageView
+        android:id="@+id/gamecourse"
+        android:layout_width="167dp"
+        android:layout_height="170dp"
+        android:background="@drawable/img2"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="290dp"
+        />
+
+    <ImageView
+        android:id="@+id/ccourse"
+        android:layout_width="170dp"
+        android:layout_height="160dp"
+        android:background="@drawable/ccourse"
+        android:layout_toRightOf="@id/gamecourse"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="300dp"
+        />
+
+    <ImageView
+        android:id="@+id/csscourse"
+        android:layout_width="170dp"
+        android:layout_height="160dp"
+        android:background="@drawable/csscourse"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="470dp"
+        />
+
+    <ImageView
+        android:id="@+id/javacourse"
+        android:layout_width="169dp"
+        android:layout_height="161dp"
+        android:background="@drawable/javacourse"
+        android:layout_toRightOf="@id/csscourse"
+        android:layout_marginStart="13dp"
+        android:layout_marginTop="470dp"
+        />
+
     <ImageView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
